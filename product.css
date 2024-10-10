@@ -1,0 +1,164 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(to right, #e0f7fa, #ffffff);
+    padding: 10px 20px;
+}
+
+.navbar .logo img {
+    width: 30px;
+    height: 30px;
+}
+
+.navbar .nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.navbar .nav-links a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+.navbar .icons {
+    display: flex;
+    gap: 15px;
+}
+
+.navbar .icons i {
+    font-size: 20px;
+    color: black;
+}
+
+#con-header-product {
+    height: 70vh;
+}
+
+#secure {
+    width: 75%;
+}
+
+#con-secure {
+    width: 20%;
+}
+
+#cart {
+    background-color: #98F3F4;
+    width: 15%;
+    height: 35px;
+}       
+
+#card-product {
+    border-radius: 25px;
+}
+
+#dua {
+    margin-top: -15px;
+}
+
+#bg-inner {
+    height: 45%;
+    border-radius: 20px;
+    background-color: aliceblue;
+}
+
+#khaki {
+    width: 75%;
+    max-height: 50.5vh;
+    object-fit: cover;
+}
+
+#her {
+    width: 80%;
+}
+
+#her-col-one {
+    height: 25vh;
+}
+
+#her img{
+    max-height: 25vh;
+    width: 100%;
+    object-fit: cover;
+}
+
+#text-summer {
+    font-size: 10vh;
+}
+
+#text-diskon {
+    font-size: 15vh;
+    font-weight: 700;
+}
+
+#shape {
+    z-index: -1;
+    margin-left: -10vh;
+    border-radius: 50%;
+    width: 70vh;
+    height: 50vh;
+    background-color: #C2FDFF;  
+    filter: blur(100px)
+}
+
+#shape-second {
+    z-index: -1;
+    margin-left: 80vh;
+    border-radius: 50%;
+    width: 80vh;
+    height: 50vh;
+    background-color: #C2FDFF;  
+    filter: blur(100px)
+}
+
+#shape-third {
+    z-index: -1;
+    border-radius: 50%;
+    width: 100vh;
+    height: 50vh;
+    background-color: #C2FDFF;  
+    filter: blur(100px)
+}
+
+
+.footer {
+    display: flex;
+    margin-top: 15vh;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #98F3F4;
+}
+
+.footer div {
+    flex: 1;
+    padding: 10px;
+}
+
+.footer h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.footer p, .footer ul {
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.footer ul li {
+    margin-bottom: 5px;
+}
+
+.footer .social-icons {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.footer .social-icons i {
+    font-size: 24px;
+}
