@@ -1,25 +1,42 @@
+html {
+    overflow-x: hidden;
+}
+
+body {
+    color: #494949;
+}
+
 .navbar {
     display: flex;
     align-items: center;
     justify-content: space-between;
     background: linear-gradient(to right, #e0f7fa, #ffffff);
-    padding: 10px 20px;
+    padding: 20px 30px;
 }
 
 .navbar .logo img {
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
 }
 
 .navbar .nav-links {
     display: flex;
-    gap: 20px;
+    gap: 40px;
 }
 
 .navbar .nav-links a {
     text-decoration: none;
     color: black;
     font-size: 16px;
+    padding: 10px 20px;
+    transition: all .2s ease-in-out;
+}
+
+.navbar .nav-links a:hover {
+    border-radius: 50px;
+    padding: 10px 20px;
+    background-color: #0FC0C6;
+    color: #FFFFFF;
 }
 
 .navbar .icons {
@@ -31,6 +48,8 @@
     font-size: 20px;
     color: black;
 }
+
+/* LANDING PAGE */
 
 #img_2 {
     border-radius: 50px;
@@ -45,21 +64,21 @@
     height: 10%;
 }
 
-#cart {
+#cart-landing {
     background-color: #98F3F4;
     width: 15%;
     height: 35px;
 }       
 
-#card-product {
+#card-product-landing {
     border-radius: 25px;
 }
 
-#dua {
+#dua-landing {
     margin-top: -15px;
 }
 
-#bg-inner {
+#bg-inner-landing {
     height: 45%;
     border-radius: 20px;
     background-color: aliceblue;
@@ -137,6 +156,181 @@
     background-color: #C2FDFF;  
     filter: blur(100px)
 }
+
+/* ALL PRODUCT */
+#con-header-product {
+    height: 70vh;
+}
+
+#secure {
+    width: 75%;
+}
+
+.vll-product {
+    border-left: 1px solid #FFFFFF;
+    height: 115px;
+}
+.vl-product {
+    border-left: 1px solid #FFFFFF;
+    height: 115px;
+}
+
+#con-secure {
+    width: 20%;
+}
+
+#cart-product {
+    background-color: #98F3F4;
+    width: 15%;
+    height: 35px;
+}       
+
+#card-product-product {
+    border-radius: 25px;
+}
+
+#dua-product {
+    margin-top: -15px;
+}
+
+#bg-inner-product {
+    height: 45%;
+    border-radius: 20px;
+    background-color: aliceblue;
+}
+
+#khaki {
+    width: 75%;
+    height: 70vh;
+    object-fit: cover;
+}
+
+#her {
+    width: 80%;
+}
+
+#her-col-one {
+    height: 34.5vh;
+}
+
+#her img{
+    height: 34.5vh;
+    width: 100%;
+    object-fit: cover;
+}
+
+#text-summer {
+    font-size: 10vh;
+}
+
+#text-diskon {
+    font-size: 15vh;
+    font-weight: 700;
+}
+
+#shape-product {
+    z-index: -1;
+    margin-left: -10vh;
+    border-radius: 50%;
+    width: 70vh;
+    height: 50vh;
+    background-color: #C2FDFF;  
+    filter: blur(100px)
+}
+
+#shape-second-product {
+    z-index: -1;
+    margin-left: 80vh;
+    border-radius: 50%;
+    width: 80vh;
+    height: 50vh;
+    background-color: #C2FDFF;  
+    filter: blur(100px)
+}
+
+#shape-third-product {
+    z-index: -1;
+    border-radius: 50%;
+    width: 100vh;
+    height: 50vh;
+    background-color: #C2FDFF;  
+    filter: blur(100px)
+}
+
+/* DETAIL PRODUCT */
+#cart-detail-one {
+    width: 70vh;
+    margin-right: 40vh;
+}
+
+#img-detail {
+    transform: rotate(-30deg);
+}
+
+#cart-size {
+    background-color: #ffffff;
+    color: #D9D9D9;
+    border: #D9D9D9;
+    max-width: 8vh;
+    height: 8vh;
+    transition: all .2s ease-in-out;
+}
+
+#cart-size:hover {
+    background-color: #0FC0C6;
+    color: #ffffff;
+}
+
+#add-to-text {
+    margin-left: 5px;
+    background-color: #d9d9d9; 
+    height: 62px; 
+    text-decoration: none; 
+    color: #ffffff;
+    transition: all .2s ease-in-out;
+}
+
+#add-to-text:hover {
+    background-color: #98F3F4;
+}
+
+#shape-detail {
+    z-index: -1;
+    border-radius: 50%;
+    width: 70vh;
+    height: 70vh;
+    background-color: #C2FDFF;  
+    filter: blur(100px)
+}
+
+#shape-second-detail {
+    z-index: -1;
+    margin-top: -20vh;
+    margin-left: 100vh;
+    border-radius: 50%;
+    width: 50vh;
+    height: 50vh;
+    background-color: #C2FDFF;  
+    filter: blur(100px)
+}
+
+/* CART PRODUCT */
+#card-product {
+    padding: 0;
+    border-radius: 25px;
+    width: 20%;
+    height: 30vh;
+}
+
+#con-cart {
+    border-radius: 20px;
+    box-shadow: 0px 4px 5px 4px rgba(227,227,227,0.75);
+    -webkit-box-shadow: 0px 4px 5px 4px rgba(227,227,227,0.75);
+    -moz-box-shadow: 0px 4px 5px 4px rgba(227,227,227,0.75);
+}
+
+
+/* FOOTER */
 
 .footer {
     display: flex;
